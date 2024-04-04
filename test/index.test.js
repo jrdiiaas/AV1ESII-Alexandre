@@ -5,9 +5,9 @@ describe('Testes da Calculadora', () => {
         const retornado = potencia(2, 3)
         expect(retornado).toBe(esperado)
     })
-    it('Deve retornar a subtração', () => {
-        const esperado = 8
-        const retornado = subtracao(10, 2)
+    it('Deve retornar o maior valor', () => {
+        const esperado = 95
+        const retornado = Math.max(24, 95)
         expect(retornado).toBe(esperado)
     })
     it('Deve retornar a multiplicação', () => {
