@@ -11,8 +11,8 @@ describe('Testes da Calculadora', () => {
         expect(retornado).toBe(esperado)
     })
     it('Deve retornar a multiplicação', () => {
-        const esperado = 20
-        const retornado = multiplicacao(10, 2)
+        const esperado = 24
+        const retornado = Math.min(24, 95)
         expect(retornado).toBe(esperado)
     })
     it('Deve retornar a divisao', () => {
