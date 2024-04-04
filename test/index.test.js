@@ -10,14 +10,14 @@ describe('Testes da Calculadora', () => {
         const retornado = Math.max(24, 95)
         expect(retornado).toBe(esperado)
     })
-    it('Deve retornar a multiplicação', () => {
+    it('Deve retornar a menor valor', () => {
         const esperado = 24
         const retornado = Math.min(24, 95)
         expect(retornado).toBe(esperado)
     })
-    it('Deve retornar a divisao', () => {
+    it('Deve retornar a raiz quadrada', () => {
         const esperado = 5
-        const retornado = divisao(10, 2)
+        const retornado = Math.sqrt(25)
         expect(retornado).toBe(esperado)
     })
 })
